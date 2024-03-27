@@ -1,0 +1,56 @@
+{
+    "name": "starter",
+    "version": "1.0.0",
+    "description": "practice nodejs",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "start:prod": "NODE_ENV=production nodemon server.js",
+        "debug": "sudo ndb server.js",
+        "debug:prod": "sudo NODE_ENV=production ndb server.js",
+        "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
+        "build:js": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
+    },
+    "author": "ctchen",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.6.7",
+        "bcryptjs": "^2.4.3",
+        "compression": "^1.7.4",
+        "cookie-parser": "^1.4.6",
+        "dotenv": "^16.4.1",
+        "express": "^4.18.2",
+        "express-mongo-sanitize": "^2.2.0",
+        "express-rate-limit": "^7.1.5",
+        "helmet": "^7.1.0",
+        "hpp": "^0.2.3",
+        "html-to-text": "^9.0.5",
+        "jsonwebtoken": "^9.0.2",
+        "mongodb": "^6.3.0",
+        "mongoose": "^5.13.22",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.1",
+        "nodemailer": "^6.9.11",
+        "pug": "^3.0.2",
+        "sharp": "^0.33.2",
+        "slugify": "^1.6.6",
+        "stripe": "^14.21.0",
+        "validator": "^13.11.0",
+        "xss-clean": "^0.1.4"
+    },
+    "devDependencies": {
+        "eslint": "^5.16.0",
+        "eslint-config-airbnb": "^17.1.0",
+        "eslint-config-prettier": "^4.1.0",
+        "eslint-plugin-import": "^2.17.2",
+        "eslint-plugin-jsx-a11y": "^6.2.1",
+        "eslint-plugin-node": "^8.0.1",
+        "eslint-plugin-prettier": "^3.0.1",
+        "eslint-plugin-react": "^7.12.4",
+        "parcel-bundler": "^1.12.5",
+        "prettier": "^1.17.0"
+    },
+    "engines": {
+        "node": ">=10.0.0"
+    }
+}
