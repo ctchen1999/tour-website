@@ -4,7 +4,8 @@
     "description": "practice nodejs",
     "main": "app.js",
     "scripts": {
-        "start": "nodemon server.js",
+        "start": "node server.js",
+        "dev": "nodemon server.js",
         "start:prod": "NODE_ENV=production nodemon server.js",
         "debug": "sudo ndb server.js",
         "debug:prod": "sudo NODE_ENV=production ndb server.js",
