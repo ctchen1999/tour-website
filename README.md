@@ -1,5 +1,6 @@
 # Tour Website
 
+[View website](https://tour-website-mgqs.onrender.com/)\
 This is an example project for a tour website, showcasing destinations and tour packages.
 
 ## Features
